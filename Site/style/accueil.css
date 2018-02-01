@@ -23,6 +23,8 @@ body{
 
 nav{
     background-color: firebrick;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
 }
 
 /*display only under-tabs*/
@@ -76,36 +78,44 @@ nav li:hover .submenu{
 
 .menu:hover{
     border-top: 1px solid #FAF7F7;
+	border-radius: 7px;
 }
 
 .bienvenue:hover{
     border-top: 1px solid #FAF7F7;
+	border-radius: 7px;
 }
 
 .contact:hover{
     border-top: 1px solid #FAF7F7;
+	border-radius: 7px;
 }
 
 .membre:hover{
     border-top: 1px solid #FAF7F7;
+	border-radius: 7px;
 }
 
 
 /*under-tabs*/
 .bienvenue .submenu{
     background-color: #F53E3E;
+	border-radius: 7px;
 }
 
 .menu .submenu{
     background-color: #F53E3E;
+	border-radius: 7px;
 }
 
 .contact .submenu{
     background-color: #F53E3E;
+	border-radius: 7px;
 }
 
 .membre .submenu{
     background-color: #F53E3E;
+	border-radius: 7px;
 }
 
 .submenu li:hover a{
