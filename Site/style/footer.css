@@ -3,7 +3,7 @@
 footer{
     text-align: center;
     width: 100%;
-    height: 50px;
+    height: 80px;
     background-color: firebrick;
     float: bottom;
     font-family: Verdana, Calibri, sans-serif;
@@ -18,19 +18,23 @@ footer{
     float: left;
     position: relative;
     width: 33%;
-    margin-right: 5px;
-    padding-top: 17px;
+    padding-top: 30px;
     display: inline;
 }
 .logo{
     width: 66%;
-    display: inline;
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
 }
 img{
     width: 35px;
     height: 35px;
-    display: inline-block;
+    margin-left: 15px;
 }
 a{
     color: white;
+}
+.contact{
+    padding-bottom: 10px;
 }
