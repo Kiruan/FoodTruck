@@ -1,13 +1,39 @@
+
 iframe{
-    margin: 30px;
-    margin-right: 5px;
-    margin-left: 25;
+    margin: 20px;
+    margin-right: 10px;
     border-radius: 20px;
-    width: 50%;
+    width: 49%;
+    overflow:auto;
 }
 
 .horaires{
+    margin: 20px;
+    margin-right: 0;
+    margin-left: 2px;
     border: 20px;
-    width: 50%;
+    width: 49%;
+    height: 450px;
+    text-align: center;
+    vertical-align: middle;
+    border: medium solid #000000;
+    float: left;
+}
+.contenue{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    overflow:auto;
+    font-family: Verdana, Calibri, sans-serif;
     
+}
+.jour{
+    font-weight: 900;
+    background-color: azure;
+}
+.soir{
+    background-color: beige;
+}
+.midi{
+    background-color: ;
 }
