@@ -19,7 +19,7 @@ iframe{
     border: medium solid #000000;
     float: left;
 }
-.contenue{
+.content{
     width: 100%;
     display: inline-block;
     vertical-align: top;

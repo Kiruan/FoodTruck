@@ -1,0 +1,12 @@
+.content{
+    display: inline-block;
+    
+}
+.p1{
+    width: 560px;
+    height: 3
+}
+iframe{
+    float: left;
+    width: 560px;
+}
