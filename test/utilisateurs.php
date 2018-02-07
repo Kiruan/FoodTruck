@@ -15,7 +15,7 @@
 		<p>Votre password : <input type="password" name="password" /></p>
 		<p><input type="submit" value="Valider" style="font-size:20px;"></p>
 	</form>
-	<form action= "formulaire.php" method="post">
+	<form action= "admin3.php" method="post">
 		<p><input type="submit" value="Retour" style="font-size:20px;"></p>
 	</form>
 	<br/><br/>Si vous voulez supprimer tout les utilisateurs

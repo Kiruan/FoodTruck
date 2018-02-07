@@ -1,0 +1,154 @@
+/*
+-----------------------------------------------------------------
+                            MENU
+-----------------------------------------------------------------
+*/
+
+body{
+    font-family: Verdana, Calibri, sans-serif;
+    margin: 0px;
+    padding: 0px;
+	list-style-type: none;
+}
+
+/*hide under-tabs*/
+.submenu{ 
+    display: none;
+	list-style-type: none;
+}
+
+#menu-deroulant{
+	list-style-type: none;
+}
+
+nav{
+    background-color: firebrick;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+/*display only under-tabs*/
+nav > ul >li{
+    float: left;
+    position: relative;
+	margin-left: 65px;
+}
+
+/*si probleme d'affichage mettre ce commentaire en code */
+nav > ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: inline-block;
+}
+
+nav > ul > li > a{
+	margin: 10px;
+    padding: 10px;
+    color: #FFF;
+}
+
+/*display under-tabs*/
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: auto;
+    z-index: 100000;
+}
+
+/*ontop of under-tabs*/
+.submenu li{
+    border: 1px solid #CCC;
+}
+
+/*links*/
+.submenu li a{
+	margin: 25px;
+    font-size: 13px;
+    color: black;
+    width: 270px;
+}
+
+/*coulor tabs*/
+
+.menu:hover{
+    border-top: 1px solid #FAF7F7;
+	border-radius: 7px;
+}
+
+.bienvenue:hover{
+    border-top: 1px solid #FAF7F7;
+	border-radius: 7px;
+}
+
+.contact:hover{
+    border-top: 1px solid #FAF7F7;
+	border-radius: 7px;
+}
+
+.membre:hover{
+    border-top: 1px solid #FAF7F7;
+	border-radius: 7px;
+}
+
+
+/*under-tabs*/
+.bienvenue .submenu{
+    background-color: #F53E3E;
+	border-radius: 7px;
+}
+
+.menu .submenu{
+    background-color: #F53E3E;
+	border-radius: 7px;
+}
+
+.contact .submenu{
+    background-color: #F53E3E;
+	border-radius: 7px;
+}
+
+.membre .submenu{
+    background-color: #F53E3E;
+	border-radius: 7px;
+}
+
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+
+
+
+
+/*modification du menu */
+@media screen and (max-width : 1080px){
+ 
+    nav ul{
+        display: none;
+    }
+
+    
+    nav ul li, nav ul li a{
+        width: 10%;
+		height: 10%;
+        text-align: center;
+    }
+    
+    nav ul li, nav ul li a{
+        padding: 10px 0px 10px 0px;
+    }
+
+    nav li:hover .submenu{
+        display: block;
+        position: static;
+    }
+    
+
+}
+

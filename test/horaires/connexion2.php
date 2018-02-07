@@ -19,15 +19,16 @@
 		if ($password == $passwordBase) {
 			echo "Bienvenue !";
 
-			echo '<form action= "formulaire3.php" method="post">
+			echo '<form action= "horaires.php" method="post">
 				<p><input type="submit" value="Suivant" style="font-size:20px;"></p>
 			</form>';
 		}
 		else{
-			echo "Mauvais nom ou mot de passe <br/>";
-			echo '<form action= "formulaire.php" method="post">
+			echo "FAUX !! <br/>";
+			echo '<form action= "connexion.php" method="post">
 				<p><input type="submit" value="Retour" style="font-size:20px;"></p>
 			</form>';
+		
 		}
 	 ?>
 

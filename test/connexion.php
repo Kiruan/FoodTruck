@@ -27,7 +27,7 @@
 
 
 	$bdd->exec('INSERT INTO users (nom, prenom, password) VALUES("'.$nom.'", "'.$prenom.'","'.$password.'")');
-	echo ($nom." ".$prenom." ".$password);
+	echo ("Vous avez enregistré ".$nom." ".$prenom." ".$password);
 ?>
 
 	<form action= "utilisateurs.php" method="post">
