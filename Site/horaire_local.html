@@ -54,83 +54,54 @@
 				<h2>HORAIRES ET LOCALISATION</h2>
 			</div>
 		</div>				
-		
-		<div id="recherche">
-			<link rel="stylesheet" href="style/recherche.css">
-			<section>C'est à VOUS de chercher !<br/></section>
-			<p> Sous réserve de toute recherche comprise entre les chiffres 1 et 999.</p>
-			
-			<input class="bouton" type="button" value=" RECHERCHER " />
-		</div>
-		
-		<div id="boutton">
-			<ul id="item"> 
-				<li>
-					Nous contacter.
-					<input id="bouton1" type="button" value=" PLUS " />
-				</li>
-
-				<li>
-					Devenez menmbre!
-					<input id="bouton1" type="button" value=" PLUS " />
-				</li>
-
-				<li>
-					Autre information.
-					<input id="bouton1" type="button" value=" PLUS " />
-				</li>
-
-				<li>
-					Rendez-vous.
-					<input id="bouton1" type="button" value=" PLUS " />
-				</li>
-			</ul>
-			
-			<link rel="stylesheet" href="style/bouton.css">
-		</div>
+		<div class="presentation">
+            <p>Voici les horaires du food truck.</p>
+        </div>
         <div class="content">
             <div class="horaires">
-                <ul class="lundi">
-                    <li class ="jour">lundi</li>
-                    <li class="midi">11h30 - 14h30</li>
-                    <li class="soir">18h30 - 22h</li>
-                </ul>
-                <ul class="mardi">
-                    <li class ="jour">Mardi</li>
-                    <li class="midi">11h30 - 14h30</li>
-                    <li class="soir">18h30 - 22h</li>
-                </ul>
-                <ul class="mercredi">
-                    <li class ="jour">Mercredi</li>
-                    <li class="midi">11h30 - 14h30</li>
-                    <li class="soir">18h30 - 22h</li>
-                </ul>
-                <ul class="jeudi">
-                    <li class ="jour">Jeudi</li>
-                    <li class="midi">11h30 - 14h30</li>
-                    <li class="soir">18h30 - 22h</li>
-                </ul>
-                <ul class="vendredi">
-                    <li class ="jour">Vendredi</li>
-                    <li class="midi">11h30 - 14h30</li>
-                    <li class="soir">18h30 - 22h</li>
-                </ul>
-                <ul class="samedi">
-                    <li class ="jour">Samedi</li>
-                    <li class="midi">11h30 - 14h30</li>
-                    <li class="soir">18h30 - 22h</li>
-                </ul>
-                <ul class="dimanche">
-                    <li class ="jour">Dimanche</li>
-                    <li class="midi">11h30 - 14h30</li>
-                    <li class="soir">18h30 - 22h</li>
-                </ul>
-            </div>
-            <div id="loca" style="text-align: right;">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.9851540217383!2d-1.7421344306652717!3d48.046333708258295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x830a13cc88de31b4!2sRestaurant+Universitaire!5e0!3m2!1sfr!2sfr!4v1517493814347" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <table>
+                    <tr>
+                        <td>lundi</td>
+                    </tr>
+                    <tr class="midi">
+                        <td>11h30 - 14h30 // 18h30 - 22h</td>
+                    </tr>
+                    <tr>
+                        <td>Mardi</td>
+                    </tr>
+                    <tr class="mercredi">
+                        <td class ="jour">Mercredi</td>
+                        <td class="midi">11h30 - 14h30 // </td>
+                        <td class="soir">18h30 - 22h</td>
+                    </tr>
+                    <tr class="jeudi">
+                        <td class ="jour">Jeudi</td>
+                        <td class="midi">11h30 - 14h30 // </td>
+                        <td class="soir">18h30 - 22h</td>
+                    </tr>
+                    <tr class="vendredi">
+                        <td class ="jour">Vendredi</td>
+                        <td class="midi">11h30 - 14h30 // </td>
+                        <td class="soir">18h30 - 22h</td>
+                    </tr>
+                    <tr class="samedi">
+                        <td class ="jour">Samedi</td>
+                        <td class="midi">11h30 - 14h30 //</td>
+                        <td class="soir">18h30 - 22h</td>
+                    </tr>
+                    <tr class="dimanche">
+                        <td class ="jour">Dimanche</td>
+                        <td class="midi">11h30 - 14h30 // </td>
+                        <td class="soir">18h30 - 22h</td>
+                    </tr>
+                </table>
                 <link rel="stylesheet" href="style/local.css">
             </div>
+            <div class="map">
+                <script type="text/javascript" src="script/heure.js"></script>
+            </div>
         </div>
+                
         <footer>
             <link rel="stylesheet" type="text/css" href="style/footer.css"/>
             <div class="Mention">
