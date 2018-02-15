@@ -16,6 +16,9 @@
     vertical-align: middle;
     border: medium solid #000000;
 }
+.menu hover{
+    background-color: black;
+}
 
 .titre{
     font-weight: 900;
