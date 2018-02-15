@@ -6,7 +6,7 @@
     font-family: Verdana, Calibri, sans-serif;
     text-align: center;
 }
-.menu{
+.menufood{
     margin: 20px;
     margin-right: 0;
     margin-left: 2px;
@@ -16,18 +16,23 @@
     vertical-align: middle;
     border: medium solid #000000;
 }
-.menu hover{
-    background-color: black;
+.content:hover .prixKebab{
+    display: block;
+    position: absolute;
+    padding: auto;
+    z-index: 1000;
 }
 
 .titre{
-    font-weight: 900;
+    font-weight: 90;
     background-color: beige;
 }
 .img{
     height: 10px;
     width: 10px;
 }
+
 .prixKebab{
-    display: hiden;
+    display: none;
+    color: whitesmoke;
 }
