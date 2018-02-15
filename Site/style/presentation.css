@@ -1,0 +1,20 @@
+.presentation{
+	text-align: center;
+}
+
+
+.presentation img{
+	width: 92%;
+	height: 98%;
+	padding: 2%;
+	padding-bottom: 50px;
+}
+
+.titre{
+	font-size: 60px;
+	font-family: Chalkduster, fantasy;
+}
+
+.paraf{
+	font-size: 30px;
+}
