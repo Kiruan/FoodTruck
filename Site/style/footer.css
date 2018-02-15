@@ -3,8 +3,8 @@
 footer{
     text-align: center;
     width: 100%;
-    height: 80px;
-    background-color: firebrick;
+    height: 30px;
+    background-color: black;
     float: bottom;
     font-family: Verdana, Calibri, sans-serif;
     color: white;
@@ -18,10 +18,11 @@ footer{
 .mention{
     float: left;
     position: relative;
-    width: 33%;
-    padding-top: 30px;
+    width: 100%;
+    padding-top: 5px;
     display: inline;
 }
+<<<<<<< HEAD
 .logo{
     width: 66%;
     display: inline-block;
@@ -42,3 +43,5 @@ a{
     padding-bottom: 10px;
 }
 */
+=======
+>>>>>>> 7635d2839b0e1feaa2cde4108779bda2ac2a8b0d
