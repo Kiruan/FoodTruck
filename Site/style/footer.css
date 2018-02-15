@@ -13,7 +13,8 @@ footer{
     border-top-left-radius: 7px;
 }
 
-/* inner division properties*/
+/*
+ inner division properties
 .mention{
     float: left;
     position: relative;
@@ -32,9 +33,12 @@ img{
     height: 35px;
     margin-left: 15px;
 }
+*/
 a{
     color: white;
 }
+/*
 .contact{
     padding-bottom: 10px;
 }
+*/
