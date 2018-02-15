@@ -27,11 +27,19 @@ nav{
 	border-bottom-left-radius: 7px;
 }
 
+/*
+#meuu-deroulant{
+	background-color: black;
+}
+*/
+
+
 /*display only under-tabs*/
 nav > ul >li{
     float: left;
     position: relative;
-	margin-left: 65px;
+	margin-left: 90px;
+	float: center;
 }
 
 /*si probleme d'affichage mettre ce commentaire en code */
@@ -48,6 +56,7 @@ nav a{
 nav > ul > li > a{
 	margin: 10px;
     padding: 10px;
+	padding-top: 10px;
     color: #FFF;
 }
 
@@ -58,12 +67,13 @@ nav li:hover .submenu{
     top: 100%;
     left: 0px;
     padding: auto;
-    z-index: 100000;
+    z-index: 100000;	
 }
 
 /*ontop of under-tabs*/
 .submenu li{
     border: 1px solid #CCC;
+	border-radius: 5px;
 }
 
 /*links*/
@@ -94,6 +104,29 @@ nav li:hover .submenu{
 .membre:hover{
     border-top: 1px solid #FAF7F7;
 	border-radius: 7px;
+}
+
+/*dimension of logo or special div*/
+#logo{
+	width: 12%;
+}
+#logo img{
+	width: 55%;
+	height: 55%;
+}
+
+
+#menu-deroulant > li:nth-child(1){
+	margin: auto;
+	padding-top: 0px;
+}
+#menu-deroulant > li:nth-child(5){
+	float: right;
+	margin-right: 190px;
+}
+#menu-deroulant > li:nth-child(3){
+	margin-left: 120px;
+	margin-right: 40px;
 }
 
 

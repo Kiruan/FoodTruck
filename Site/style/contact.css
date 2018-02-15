@@ -1,0 +1,19 @@
+.contact{
+	text-align: center;
+}
+
+.titre{
+	font-size: 60px;
+	font-family: Chalkduster, fantasy;
+}
+
+.icon{
+	font-size: 30px;
+}
+
+.contact img{
+	width: 12%;
+	height: 100%;
+	padding: 2%;
+	padding-bottom: 50px;
+}
