@@ -1,6 +1,6 @@
 iframe{
     border-radius: 20px;
-    width: 48%;
+    width: 100%;
     overflow:auto;
     border: medium solid #000000;
     float: right;
@@ -35,12 +35,11 @@ iframe{
     background-color: beige; 
 	margin-bottom: 30px;
 }
-.mapKerlann{
-    display: none;
-}
-.mapLice{
-    display: none;
+
 }
 .midi:hover .mapKerlann{
     display: inline-block;
+}
+a{
+    color: black;
 }
