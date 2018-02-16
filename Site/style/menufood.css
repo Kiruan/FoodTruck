@@ -1,9 +1,16 @@
 .content{
     width: 100%;
+<<<<<<< HEAD
     display: inline-block;
     vertical-align: top;
     overflow:auto;
     font-family: Chalkduster, fantasy;
+=======
+/*    display: inline-block;	pas besoin de ca, fin je crois pas*/
+/*    vertical-align: top;		*/
+/*    overflow:auto;			*/
+    font-family: Verdana, Calibri, sans-serif;
+>>>>>>> 763e0fa9a67a084835655e7d43bbcb0fc510d90b
     text-align: center;
 }
 .menufood{
@@ -13,7 +20,7 @@
     border: 20px;
     height: auto;
     text-align: center;
-    vertical-align: middle;
+/*    vertical-align: middle;		*/
     border: medium solid #000000;
 }
 .content:hover .prixKebab{
