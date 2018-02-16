@@ -3,7 +3,7 @@
     display: inline-block;
     vertical-align: top;
     overflow:auto;
-    font-family: Verdana, Calibri, sans-serif;
+    font-family: Chalkduster, fantasy;
     text-align: center;
 }
 .menufood{
@@ -11,7 +11,7 @@
     margin-right: 0;
     margin-left: 2px;
     border: 20px;
-    height: 450px;
+    height: auto;
     text-align: center;
     vertical-align: middle;
     border: medium solid #000000;
@@ -26,6 +26,7 @@
 .titre{
     font-weight: 90;
     background-color: beige;
+    font-size: 60px;
 }
 .img{
     height: 10px;
@@ -34,5 +35,12 @@
 
 .prixKebab{
     display: none;
-    color: whitesmoke;
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
 }
+.modele{
+    font-size: 30px;
+    font-weight: 100px;
+}
+
