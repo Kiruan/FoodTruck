@@ -4,6 +4,7 @@ iframe{
     overflow:auto;
     border: medium solid #000000;
     float: right;
+    display: inline-block;
 }
 
 .horaires{
@@ -25,7 +26,6 @@ iframe{
 }
 
 .content{
-    width: 99.7%;
     display: inline-block;
     vertical-align: top;
     overflow:auto;
