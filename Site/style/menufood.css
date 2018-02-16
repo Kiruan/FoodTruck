@@ -1,5 +1,9 @@
 .content{
     width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    overflow:auto;
+    font-family: Chalkduster, fantasy;
 /*    display: inline-block;	pas besoin de ca, fin je crois pas*/
 /*    vertical-align: top;		*/
 /*    overflow:auto;			*/
@@ -11,21 +15,22 @@
     margin-right: 0;
     margin-left: 2px;
     border: 20px;
-    height: 450px;
+    height: auto;
     text-align: center;
 /*    vertical-align: middle;		*/
     border: medium solid #000000;
 }
 .content:hover .prixKebab{
     display: block;
-    position: absolute;
+    position: sticky;
     padding: auto;
     z-index: 1000;
 }
 
 .titre{
-    font-weight: 90;
+    font-weight: 900;
     background-color: beige;
+    font-size: 60px;
 }
 .img{
     height: 10px;
@@ -34,5 +39,15 @@
 
 .prixKebab{
     display: none;
-    color: whitesmoke;
+    color: black;
+    font-weight: 100;
+    font-size: 25px;
 }
+.modele{
+    font-size: 30px;
+    font-weight: 100px;
+}
+.paraf{
+    font-size: 35px;
+}
+
