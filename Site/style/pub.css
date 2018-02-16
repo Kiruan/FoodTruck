@@ -1,6 +1,7 @@
-pub img{
-    width: 70px;
-    height: 70px;
-    float: right;
+pub{
+    width: 10%;
+    height: 10%;
+    float: left;
 }
+
 
