@@ -7,4 +7,15 @@
 	font-family: Chalkduster, fantasy;
 }
 
+.paraf{
+	text-align: center;
+	font-size: 30px;
+}
 
+.creation img{
+	width: 50%;
+	height: auto;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
