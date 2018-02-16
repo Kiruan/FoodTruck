@@ -39,12 +39,7 @@ iframe{
     width: 100%;
 }
 
-}
-.midi:hover .mapKerlann{
-    display: inline-block;
-}
-
-.content a{
-    color: black;3
+a .content{
+    color: black;
     text-align: center;
 }
