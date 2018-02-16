@@ -115,6 +115,12 @@ nav li:hover .submenu{
 	height: 55%;
 }
 
+.membre img{
+	width: 30%;
+	height: auto;
+}
+
+
 
 #menu-deroulant > li:nth-child(1){
 	margin: auto;
